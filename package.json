@@ -1,0 +1,27 @@
+{
+  "name": "ask_alexa",
+  "version": "1.0.0",
+  "description": "be able to ask alexa about my margin calls",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephdempsey/ask_alexa"
+  },
+  "scripts": {
+    "test": "jasmine --helper=test/helpers/reporter.js 'test/**/*.spec.js'",
+    "alexaLocal": "alexa-skill-local --inspect-brk=0.0.0.0:9229"
+  },
+  "homepage": "https://github.com/josephdempsey/ask_alexa#readme",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-skill-local": "^1.3.0",
+    "ask-sdk": "^2.6.0",
+    "jasmine": "^3.4.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "alexa-skill-test-framework": "^1.2.4"
+  }
+}
